@@ -27,6 +27,7 @@ def on_board?(num)
   else
     return FALSE
   end
+end
 
 if (position_taken?(board, index)) == FALSE && (on_board?(index) ==TRUE)
   return TRUE
