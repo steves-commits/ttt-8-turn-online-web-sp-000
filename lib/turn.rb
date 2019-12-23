@@ -28,6 +28,13 @@ def on_board?(num)
     return FALSE
   end
 
+if (position_taken?(board, index)) == FALSE && (on_board?(index) ==TRUE)
+  return TRUE
+else
+  return FALSE
+end
+end
+
 
 
 def turn(board)
