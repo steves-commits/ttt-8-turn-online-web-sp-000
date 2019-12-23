@@ -21,7 +21,7 @@ def valid_move?(board, index)
     end
   end
 
-
+def on_board?
 
 
 def turn(board)
