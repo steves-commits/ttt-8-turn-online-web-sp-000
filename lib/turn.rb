@@ -22,7 +22,7 @@ def valid_move?(board, index)
   end
 
 def on_board?(num)
-  if num.between? 
+  if num.between?
 
 
 def turn(board)
